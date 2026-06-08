@@ -1,0 +1,17 @@
+{
+  "name": "sentinel-care",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sentinel Care static subscription support portal for Sentinel Prime.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx netlify-cli dev",
+    "build": "node scripts/build-check.mjs",
+    "check": "node scripts/build-check.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "resend": "^4.0.0",
+    "stripe": "^17.3.1"
+  }
+}
